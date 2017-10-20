@@ -7,6 +7,7 @@ class LinksController < ApplicationController
     @links = Link.all
   end
 
+
   # GET /links/1
   # GET /links/1.json
   def show
