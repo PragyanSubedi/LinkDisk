@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
 
+group :production do
+  gem 'pg'
+end
+
+group :development do
  gem 'sqlite3'
+end
+
 gem 'record_tag_helper', '~> 1.0'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form'
